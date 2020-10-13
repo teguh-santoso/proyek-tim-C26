@@ -1,0 +1,46 @@
+* {
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: Helvetica;
+} 
+
+.header {
+	background-color: #2d3436;
+	color: #fff;
+	max-width: 980px;
+	margin: 0px auto;
+	height: 60px;
+}
+
+.header-logo .logo {
+	font-size: 20px;
+	line-height: 60px;
+	float: left;
+	margin: 0px 20px;
+}
+
+.header-menu {
+	margin: 0px 20px;
+}
+
+.header-menu li {
+	list-style: none;
+	float:right;
+}
+
+.header-menu li:hover{
+	background-color: rgba(99, 110, 114,0.3);
+}
+
+.header-menu a {
+	line-height: 60px;
+	display: block;
+	padding: 0px 15px;
+	color: #fff;
+}

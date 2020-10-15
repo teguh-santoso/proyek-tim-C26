@@ -5,6 +5,102 @@
  	<title>Proyek Tim C26</title>
  	<link rel="stylesheet" type="text/css" href="assets/style.css">
  	<link rel="stylesheet" type="text/css" href="assets/responsive.css">
+ 	<style>
+ 		/** Teguh : saya ubah body ke copy-container **/
+        .copy-container {
+            background-color: #f1c40f;
+            -webkit-animation: color 5s ease-in 0s infinite alternate running;
+            -moz-animation: color 5s linear 0s infinite alternate running;
+            animation: color 5s linear 0s infinite alternate running;
+        }
+
+
+        @-webkit-keyframes color {
+            0% {
+                background-color: #f1c40f;
+            }
+
+            32% {
+                background-color: #e74c3c;
+            }
+
+            55% {
+                background-color: #9b59b6;
+            }
+
+            76% {
+                background-color: #16a085;
+            }
+
+            100% {
+                background-color: #2ecc71;
+            }
+        }
+
+        @-moz-keyframes color {
+            0% {
+                background-color: #f1c40f;
+            }
+
+            32% {
+                background-color: #e74c3c;
+            }
+
+            55% {
+                background-color: #9b59b6;
+            }
+
+            76% {
+                background-color: #16a085;
+            }
+
+            100% {
+                background-color: #2ecc71;
+            }
+        }
+
+        @keyframes color {
+            0% {
+                background-color: #f1c40f;
+            }
+
+            32% {
+                background-color: #e74c3c;
+            }
+
+            55% {
+                background-color: #9b59b6;
+            }
+
+            76% {
+                background-color: #16a085;
+            }
+
+            100% {
+                background-color: #2ecc71;
+            }
+        }
+
+        h1 {
+            margin: 0;
+            text-transform: uppercase;
+            font-family: 'halvetica', sans-serif;
+            color: #ecf0f1;
+            font-size: 30pt;
+            text-align: left;
+            line-height: 100px;
+            letter-spacing: 0.2em
+        }
+
+        p {
+            text-align: left;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
  </head>
  <body>
  	
@@ -21,15 +117,63 @@
  	</div>
 
 
- 	<!-- Ini bagian main -->
+ 	
  	<div class="main">
  		
- 	</div>
+ 			<!-- Ini bagian main -->
+            <div class="copy-container">
+                <h1>Ayoo<span>.....</span></h1>
+                <h2>Belajar Coding</h2>
+                <h3>Di Project C26</h3>
+                <div class="top-wrapper">
+                <div class="container">
 
- 	<!-- Ini bagian body (sebagai class) -->
- 	<div class="body">
- 		
- 	</div>
+                    <div class="btn-wrapper">
+                        <a href="#" class="btn signup">Daftar dengan Email</a>
+
+                        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Daftar dengan Facebook</a>
+                        <a href="#" class="btn instagram"><span class="fa fa-instagram"></span>Daftar dengan Instagram</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- Ini bagian body -->
+            <div class="contents">
+                <h3 class="section-title">Apa saja yang kamu pelajari?</h3>
+            </div>
+
+            <div class="lessons">
+                <div class="lesson">
+                    <div class="lesson-icon">
+                        <img src="https://prog-8.com/images/html/advanced/html.png">
+                        <p>HTML & CSS</p>
+                    </div>
+                    <p class="txt-contents">Dua bahasa yang digunakan untuk membangun struktur dan design tambilan website anda.</p>
+                </div>
+                <div class="lesson">
+                    <div class="lesson-icon">
+                        <img src="https://prog-8.com/images/html/advanced/jQuery.png">
+                        <p>Javascript</p>
+                    </div>
+                    <p class="txt-contents">JavaScript Library yang cepat, kaya akan fitur dan mudah digunakan untuk menangani animasi dan permintaan Ajax.</p>
+                </div>
+                <div class="lesson">
+                    <div class="lesson-icon">
+                        <img src="https://prog-8.com/images/html/advanced/ruby.png">
+                        <p>MySQL</p>
+                    </div>
+                    <p class="txt-contents">sistem manajemen database relasional open source (RDBMS) dengan client-server model. .</p>
+                </div>
+                <div class="lesson">
+                    <div class="lesson-icon">
+                        <img src="https://prog-8.com/images/html/advanced/php.png">
+                        <p>PHP</p>
+                    </div>
+                    <p class="txt-contents">Bahasa scripting "open-source" yang dapat disematkan ke dalam HTML, dan cocok untuk pengembangan web.</p>
+                </div>
+            </div>
+        </div>
 
  	<!-- Ini bagian footer. Boleh diganti <footer>, senyaman bpk/ibu saja-->
  	<div class="footer">

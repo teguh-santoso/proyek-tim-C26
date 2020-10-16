@@ -75,7 +75,8 @@ body {
                                 
  .contents {            
    /** height: 500px; **/            
-   margin: 70px 80px;            
+   margin: 70px 80px;
+   max-width: 1280px;            
   }            
                                 
   .section-title {            
@@ -225,3 +226,49 @@ body {
   .lessons {
   	margin: 20px;
   }
+
+
+  /** CSS dari bu Risty **/
+  .footer-main {
+	/** height: 65px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: initial;
+	background-size: 30px 20px;
+	font-style: serif;
+	**/
+	font-size: 20px;
+	font-weight: normal;
+	box-sizing: 30px 20px;
+	
+	background-color: #130f40;
+	margin-top: 400px;
+    padding: 20px;
+    height: 100px;
+	}
+	.footer-logo {
+		line-height: 100px;
+		float:left;
+	}
+.footer-list {
+	/** font-family: serif;**/
+	font-size: 20px;
+	font-weight: normal;
+	float: right;
+	height: 100px;
+}
+
+.footer-list h4 {
+	/** font-family: serif;**/
+	margin-left: 20px;
+}
+
+.footer-container {
+	max-width: 1200px;
+	margin: 0px auto;
+	color: #fff;
+}
+
+.footer-list a {
+	color: #fff;
+}

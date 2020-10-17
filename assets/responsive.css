@@ -1,0 +1,30 @@
+@media (max-width: 1000px) {
+	.lesson {
+		width: 50%;
+	}
+	.footer-main {
+		margin-top: 750px;
+	}
+	.btn {
+		width: 50%;
+		margin-top: 5px;
+	}
+
+@media (max-width: 670px) {
+	.responsive-menu{
+		display: block;
+	}
+	.normal-menu {
+		display: none;
+	}
+	.lesson {
+		width: 100%;
+	}
+	.btn {
+		margin-top: 10px;
+		width: 200px;
+	}
+	.footer-main {
+		margin-top:1200px;
+	}
+}
